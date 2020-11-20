@@ -194,6 +194,8 @@ h3 {
   height: 581px;
 
   background-color: var(--white);
+  display: block;
+  border-radius: 4px;
 }
 .closeModalBtn {
   position: absolute;
@@ -211,6 +213,83 @@ h3 {
 .icon-close {
   width: 11px;
   height: 11px;
+}
+.form-request {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  padding: 40px;
+}
+.form-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--light-black);
+  margin-bottom: 12px;
+}
+.label-request {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4px;
+}
+.label-request:last-child {
+  margin-bottom: 20px;
+}
+.input-request {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  height: 40px;
+  resize: none;
+  padding: 12px 42px;
+}
+.person-request {
+  position: relative;
+}
+.div-icon-person-request {
+}
+.icon-person-request {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  transform: translateY(-50%);
+  transform: translateX(12px);
+}
+.label-request .textarea {
+  height: 120px;
+  padding: 12px 16px;
+
+  margin-bottom: 20px;
+}
+.link-agreement-conditions {
+  color: var(--blue);
+  text-decoration: underline;
+}
+.btn-submit-requests {
+  margin: 0 auto;
+  width: 200px;
+  background-color: var(--blue);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 0.06em;
+  display: inline-block;
+  margin-top: 50px;
+  border: 1px solid#2196f3;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 32px;
+  padding-left: 32px;
 }
 .hero {
   display: flex;
