@@ -402,7 +402,6 @@ h3 {
 }
 .icon-char-div {
   height: 120px;
-  width: 100%-30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -533,6 +532,7 @@ h3 {
 }
 .sotial-list-item .sotial-link:hover,
 .sotial-list-item .sotial-link:focus {
+  outline: none;
   border: 1px solid var(--blue);
   background-color: var(--blue);
   border-radius: 50%;
@@ -570,6 +570,7 @@ h3 {
 .regular-customers .list-regular-customers .link-regular-customers:hover,
 .regular-customers .list-regular-customers .link-regular-customers:focus {
   border: 1px solid var(--blue);
+  outline: none;
 }
 .regular-customers
   .list-regular-customers
@@ -661,4 +662,63 @@ h3 {
 }
 .footer .sotial-list-item:last-child {
   margin-right: 0;
+}
+.title-mailing {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--white);
+  display: block;
+  margin-top: 12px;
+  margin-left: 93px;
+  margin-bottom: 20px;
+}
+.input-mailing {
+  margin-left: 93px;
+  background-color: var(--dark-bg);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  width: 358px;
+  padding: 15px 16px;
+  color: var(--white);
+}
+.btn-mailing {
+  padding: 10px 62px 10px 29px;
+  margin-left: 12px;
+
+  background-color: var(--blue);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border: none;
+  border-radius: 4px;
+
+  color: var(--white);
+}
+.combine-input-mailing-btn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.div-icon-mailing {
+  position: relative;
+}
+.icon-mailing {
+  position: absolute;
+  top: 50%;
+  right: 28px;
+
+  width: 24px;
+  height: 24px;
+
+  transform: translateY(-50%);
 }

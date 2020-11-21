@@ -17,7 +17,7 @@
             <nav class="nav-logo-list">
               <a href="./index.html" class="logo"><span class="web">Web</span><span class="stud">Studio</span></a>
               <ul class="nav list nav-list">
-                <li  class="nav-item studio" class="studio"><a href="./index.html" class="studio nav-link">Студия</a></li>
+                <li  class="nav-item studio"><a href="./index.html" class="studio nav-link">Студия</a></li>
                 <li  class="nav-item portfolio"><a href="./portfolio.html" class="portfolio nav-link">Портфолио</a></li>
                 <li  class="nav-item contacts"><a href="#contacts" class="contacts nav-link">Контакты</a></li>
               </ul>
@@ -59,7 +59,7 @@
                   <label class="label-request">
                     <span>Имя</span>
                     <div class="person-request">
-                      <input type="text" class="input-request">
+                      <input type="text" class="input-request" name="customer-name">
                         <svg class="icon-person-request">
                           <use href="./images/svg/symbol-defs.svg#icon-person-request"></use>
                         </svg>
@@ -68,7 +68,7 @@
                   <label class="label-request">
                     <span>Телефон</span>
                     <div class="person-request">
-                      <input type="tel" class="input-request">
+                      <input type="tel" class="input-request" name="customer-tel">
                       <svg class="icon-person-request">
                         <use href="./images/svg/symbol-defs.svg#icon-phone-request"></use>
                       </svg>
@@ -77,7 +77,7 @@
                   <label class="label-request">
                     <span>Почта</span>
                     <div class="person-request">
-                      <input type="email" class="input-request">
+                      <input type="email" class="input-request" name="customer-email">
                       <svg class="icon-person-request">
                         <use href="./images/svg/symbol-defs.svg#icon-email-request"></use>
                       </svg>
@@ -93,7 +93,7 @@
                     <svg class="icon-agreement-request">
                       <use href="./images/svg/symbol-defs.svg#icon-check"></use>
                     </svg>
-                    <span>Соглашаюсь с рассылкой и принимаю <a href="#"class="link-agreement-conditions">Условия договора</a></span>
+                    <span>Соглашаюсь с рассылкой и принимаю <a href="#" class="link-agreement-conditions">Условия договора</a></span>
                   </label>
                   <button type="submit" class="btn-submit-requests">Отправить</button>
                 </form>
@@ -422,6 +422,22 @@
                 </a>
               </li>
             </ul>
+          </div>
+          <div class="mailing">
+            <form class="form-mailing">
+              <label>
+                <span class="title-mailing">Подпишитесь на рассылку</span>
+                <div class="combine-input-mailing-btn">
+                  <input type="email" placeholder="E-mail" class="input-mailing" name="mailing">
+                  <div class="div-icon-mailing">
+                    <button type="submit" class="btn-mailing">Подписаться</button>
+                    <svg class="icon-mailing">
+                      <use href="./images/svg/symbol-defs.svg#icon-icon-send"></use>
+                    </svg>
+                  </div>
+                </div>
+              </label>
+            </form>
           </div>
         </div>
       </div>
